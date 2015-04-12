@@ -1,0 +1,62 @@
+.row {
+    margin-top: 24px;
+}
+
+.input-groups {
+	width: 90%;
+	/*max-width: 480px;*/
+	margin: auto;
+	font-family: Verdana, arial,sans-serif;
+}
+
+.input-groups .search-bar {
+    width: 100%;
+    border: 1px solid #bbb;
+}
+.input-groups .search-bar:focus {
+    border: 1px solid #999;
+    transition-timing-function: linear;
+    transition-duration: 1s;
+}
+.input-groups .search-btn {
+	width: 72px;
+}
+
+.input-groups .badge {
+	/*right: 6px;*/
+ 	/*top: 8px;*/
+ 	background: #046380;
+}
+
+.input-groups .total-results {
+	font-family: monospace;
+}
+
+.padding {
+    height: 500px;
+    background: purple;
+}
+
+table tr td pre {
+	padding-left: 0;
+	padding-right: 0;
+	border-radius: 0;
+	background: none;
+	border: 0;
+	white-space: nowrap;
+}
+
+table tr td pre span {
+	background: yellow;
+
+}
+
+table tr td:first-child {
+	text-align: right;
+}
+
+table tr td:last-child {
+	/*text-overflow: ellipsis;*/
+	/*white-space: nowrap;*/
+	/*overflow: hidden;*/
+}
